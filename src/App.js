@@ -1,9 +1,20 @@
 import React from 'react'
 
+import { About, Contact, Footer, Header, Landing, Projects } from './containers'
+import { Navbar } from './components'
+
 const App = () => {
     return (
-        <div>
-            <h1>Portfolio</h1>
+        <div className="App">
+            <div className="solid_bg">
+                <Navbar />
+                <Header />
+            </div>
+            <Landing />
+            <About />
+            <Projects />
+            <Contact />
+            <Footer />
         </div>
     )
 }
