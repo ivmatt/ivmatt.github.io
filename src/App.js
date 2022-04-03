@@ -2,6 +2,7 @@ import React from 'react'
 
 import { About, Contact, Footer, Header, Landing, Projects } from './containers'
 import { Navbar } from './components'
+import './App.css'
 
 const App = () => {
     return (

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'CartographCF';
+    src: local('Cartograph CF'), url(./fonts/cartograph-sans-cf-bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'TiemposFine';
+    src: local('Tiempos Fine'), url(./fonts/TestTiemposFine-Black.otf) format('opentype');
+
+}
+
+@font-face {
+    font-family: 'DankMono';
+    src: local('Dank Mono'), url(./fonts//Dank\ Mono\ Italic.otf) format('opentype');
+}
+
+:root {
+    --font-family: 'CartographCF', sans-serif;
+    --font-title: 'TiemposFine', serif;
+    --font-special: 'DankMono', sans-serif;
+
+
+
+    --color-bg: #F2E9DA;
+    --color-text: #000000;
+    --color-subtext: #8C8478;
+    --color-body: #333231;
+}
