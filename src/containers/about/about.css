@@ -1,0 +1,55 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.about-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.about-description {
+  max-width: 653px;
+  min-height: 653px;
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0rem 3rem;
+}
+
+.about-description h1 {
+  font-family: var(--font-title);
+  font-size: 40px;
+  line-height: 144.2%;
+  max-width: 537px;
+
+  letter-spacing: 0.015em;
+}
+
+.about-description p {
+  font-family: var(--font-family);
+  color: var(--color-body);
+  font-size: 18px;
+  line-height: 146.47%;
+  max-width: 537px;
+}
+
+.boston-university {
+  color: var(--color-highlight);
+}
+
+@media screen and (max-width: 1260px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-description {
+    align-self: center;
+    margin: 0rem 1rem;
+  }
+}

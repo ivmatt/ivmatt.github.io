@@ -57,7 +57,7 @@ const Navbar = () => {
           </p>
         )}
         {menuToggle && (
-          <div className="navbar-menu-container scale-in-tr">
+          <div className="navbar-menu-container scale-in-tr scale-out-tr">
             <div className="navbar-menu-container-links">
               <Menu />
             </div>
