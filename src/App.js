@@ -2,8 +2,9 @@ import React from "react";
 
 import { About, Contact, Footer, Landing, Projects } from "./containers";
 import { Navbar } from "./components";
-import DraggablePhoto from "./components/draggablePhoto/DraggablePhoto";
 import "./App.css";
+import ProjectCard from "./components/projectCard/ProjectCard";
+import screenshot from "./assets/StuddyBuddyScreenshot.png";
 
 const App = () => {
   return (
