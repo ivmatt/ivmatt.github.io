@@ -1,0 +1,38 @@
+.landing {
+  display: flex;
+  height: 1080px;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing-container-top p {
+  color: var(--color-text);
+  font-family: var(--font-special);
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.landing-container-middle p {
+  color: var(--color-text);
+  font-family: var(--font-title);
+  font-size: 144px;
+  line-height: 175px;
+  letter-spacing: 0.015em;
+  text-align: center;
+}
+
+.landing-container-bottom p {
+  color: var(--color-subtext);
+  font-family: var(--font-special);
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}

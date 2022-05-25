@@ -1,23 +1,22 @@
-import React from 'react'
+import React from "react";
 
-import { About, Contact, Footer, Header, Landing, Projects } from './containers'
-import { Navbar } from './components'
-import './App.css'
+import { About, Contact, Footer, Landing, Projects } from "./containers";
+import { Navbar } from "./components";
+import "./App.css";
 
 const App = () => {
-    return (
-        <div className="App">
-            <div className="solid_bg">
-                <Navbar />
-                <Header />
-            </div>
-            <Landing />
-            <About />
-            <Projects />
-            <Contact />
-            <Footer />
-        </div>
-    )
-}
+  return (
+    <div className="App">
+      <div className="solid_bg">
+        <Navbar />
+      </div>
+      <Landing />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
