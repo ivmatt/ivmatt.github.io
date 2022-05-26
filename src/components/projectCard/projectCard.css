@@ -1,25 +1,31 @@
-.projectCard {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
 .card {
   display: flex;
-  flex-grow: 1;
-  max-width: 861px;
-  max-height: 867px;
+  max-width: 700px;
+  max-height: 700px;
+  width: 100%;
   flex-direction: column;
   justify-content: start;
+  align-items: center;
   padding: 2rem;
-  margin: 2rem;
   background: var(--color-body);
   border-radius: 20px;
+  aspect-ratio: 1/1;
 }
 
-.screenshot {
-  align-self: center;
-  margin: 4rem 0rem;
+.photo-container {
+  display: flex;
+  height: 85%;
+  width: 100%;
+  justify-content: center;
+  padding: 2rem 0rem;
+}
+
+.card img {
+  height: 100%;
+}
+
+.text {
+  width: 100%;
 }
 
 .subtitle {
@@ -40,4 +46,10 @@
   letter-spacing: 0.01em;
 
   color: var(--color-bg);
+}
+
+@media screen and (max-width: 760px) {
+  .card img {
+    height: 62vw;
+  }
 }
