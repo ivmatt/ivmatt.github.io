@@ -36,3 +36,69 @@
 .contact-inputs {
   margin: 2rem 0rem;
 }
+
+.form-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.send {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 0rem 0rem 0.2rem 0rem;
+
+  background-color: var(--color-bg);
+  width: 90px;
+  height: 32px;
+  border-radius: 10px;
+  border-width: 0px;
+
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-style: italic;
+}
+
+.send:hover {
+  background-color: #c9b79c;
+}
+
+.send:active {
+  background-color: #8c8478;
+}
+
+input {
+  width: 558px;
+  height: 52px;
+  justify-content: center;
+
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-style: italic;
+  color: var(--color-bg);
+
+  background-color: #333231;
+  border-radius: 15px;
+  border-width: 0px;
+  margin: 0rem 0rem 1rem 0rem;
+  padding: 0rem 1rem 0.3rem 1rem;
+}
+
+textarea {
+  max-width: 558px;
+  height: 191px;
+  width: 100%;
+  resize: vertical;
+
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-style: italic;
+  color: var(--color-bg);
+
+  background: #333231;
+  border-radius: 15px;
+  border-width: 0px;
+  padding: 1rem;
+}

@@ -3,7 +3,6 @@ import React from "react";
 import { About, Contact, Footer, Landing, Projects } from "./containers";
 import { Navbar } from "./components";
 import "./App.css";
-import ProjectCard from "./components/projectCard/ProjectCard";
 import screenshot from "./assets/StuddyBuddyScreenshot.png";
 
 const App = () => {
@@ -12,10 +11,18 @@ const App = () => {
       <div className="solid_bg">
         <Navbar />
       </div>
-      <Landing />
-      <About />
-      <Projects />
-      <Contact />
+      <section>
+        <Landing />
+      </section>
+      <section>
+        <About />
+      </section>
+      <section>
+        <Projects />
+      </section>
+      <section>
+        <Contact />
+      </section>
     </div>
   );
 };

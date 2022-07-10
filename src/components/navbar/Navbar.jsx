@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
+import resume from "../../assets/resume.pdf";
 
 const Menu = () => (
   <>
@@ -39,7 +40,9 @@ const Navbar = () => {
         </div>
         <div className="navbar-links-right">
           <p>
-            <a href="#resume">Resume</a>
+            <a href={resume} target="_blank" rel="noreferrer">
+              Resume
+            </a>
           </p>
           <p>
             <a href="#contact">Contact</a>
@@ -49,7 +52,7 @@ const Navbar = () => {
       <div className="navbar-mobile-menu">
         {menuToggle ? (
           <p onClick={() => setMenuToggle(false)}>
-            <a href="# menu">Less</a>
+            <a href="#menu">Less</a>
           </p>
         ) : (
           <p onClick={() => setMenuToggle(true)}>

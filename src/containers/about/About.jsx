@@ -4,7 +4,7 @@ import DraggablePhoto from "../../components/draggablePhoto/DraggablePhoto";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-container">
         <DraggablePhoto />
         <div className="about-description">

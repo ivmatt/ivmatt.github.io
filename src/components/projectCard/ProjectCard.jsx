@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
         <p className="title">{props.title}</p>
       </div>
       <div className="photo-container">
-        {/* <img src={props.photoURL} /> */}
+        <img src={props.photoURL} />
       </div>
     </div>
   );
