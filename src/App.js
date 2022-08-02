@@ -3,7 +3,6 @@ import React from "react";
 import { About, Contact, Footer, Landing, Projects } from "./containers";
 import { Navbar } from "./components";
 import "./App.css";
-import screenshot from "./assets/StuddyBuddyScreenshot.png";
 
 const App = () => {
   return (

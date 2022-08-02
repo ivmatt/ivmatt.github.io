@@ -4,11 +4,18 @@ import "./projectCard.css";
 const ProjectCard = (props) => {
   return (
     <div className="card">
-      <div className="text">
-        <p className="subtitle">{props.subtitle}</p>
-        <p className="title">{props.title}</p>
+      <div className="text-and-button">
+        <div className="text">
+          <p className="title">{props.title}</p>
+          <p className="subtitle">{props.subtitle}</p>
+        </div>
+        <a href="https://github.com/ivmatt/ivmatt.github.io">
+          <button>Learn more</button>
+        </a>
       </div>
       <div className="photo-container">
+        <img src={props.photoURL} />
+        <img src={props.photoURL} />
         <img src={props.photoURL} />
       </div>
     </div>

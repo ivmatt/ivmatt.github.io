@@ -1,21 +1,22 @@
 .card {
   display: flex;
-  max-width: 600px;
+  min-width: 90vw;
   max-height: 600px;
   width: 100%;
-  flex-direction: column;
-  justify-content: start;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
   padding: 2rem;
   background: var(--color-body);
   border-radius: 20px;
   aspect-ratio: 1/1;
+  padding: 1rem 3rem;
 }
 
 .photo-container {
   display: flex;
   height: 100%;
-  width: 100%;
+  width: auto;
   justify-content: center;
   align-items: center;
   padding: 2rem;
@@ -28,15 +29,38 @@
   object-fit: cover;
 }
 
+.card button {
+  width: 170px;
+  height: 31px;
+  left: 217px;
+  top: 500px;
+  margin: 1rem 2rem;
+  padding: 0rem 0rem 0.2rem 0rem;
+
+  background: var(--color-bg);
+  border-radius: 17px;
+  border-width: 0;
+
+  font-family: var(--font-family);
+  font-size: 18px;
+  color: var(--color-body);
+
+  cursor: pointer;
+}
+
 .text {
-  width: 100%;
+  justify-content: center;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  padding: 2rem;
 }
 
 .subtitle {
   font-family: var(--font-family);
   font-size: 24px;
   line-height: 146.47%;
-  align-items: center;
 
   color: var(--color-subtext);
 }
@@ -46,7 +70,6 @@
   font-size: 48px;
   line-height: 146.47%;
   display: flex;
-  align-items: center;
   letter-spacing: 0.01em;
 
   color: var(--color-bg);
