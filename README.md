@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# This is my personal website!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### How I built it
 
-## Available Scripts
+I designed the website using Figma and built it with React.
 
-In the project directory, you can run:
+### Is it done?
 
-### `npm start`
+Not completely.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### What's in it
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+It's got all the essential things a personal website should have. However, I plan to make more changes to make the website more interesting and fun.
 
-### `npm test`
+It can also serve as React practice!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### What did I learn?
 
-### `npm run build`
+Although I have experience using React Native and creating components and all, this was my first time using React to create a website.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- HTML
+- CSS
+- Creating React components
+- More git practice
+- Deploying a website on Github Pages
+- Using custom domains
+- A whole lot of Figma
+- File structure for a React website
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### What difficulties did I encounter?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Fitting that damn StuddyBuddy screenshot in it's card. For some reason, it would always extend the div beyond it's parent div which made no sense to me. Consulted a friend and he helped me with it.
+- Got a lot of 404 errors when deploying the website. Reading through documentation SLOWLY helped a lot.
 
-### `npm run eject`
+### Why it took a while
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+I was going back and forth over the design of my website and ended up spending too much time thinking about how it should look rather than getting it up.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What do you plan on adding?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I'm thinking of the following things:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Fun elements like draggable photos, hidden buttons or more animations!
+- I enjoyed designing the website a lot and want to play around with other designs. Might add a button that will allow user to switch through the designs.
