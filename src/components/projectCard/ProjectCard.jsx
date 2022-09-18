@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
           <p className="title">{props.title}</p>
           <p className="subtitle">{props.subtitle}</p>
         </div>
-        <a href="https://github.com/ivmatt/ivmatt.github.io">
+        <a href="https://github.com/ivmatt/StuddyBuddy">
           <button>Learn more</button>
         </a>
       </div>
